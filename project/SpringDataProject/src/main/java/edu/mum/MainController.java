@@ -1,4 +1,4 @@
-/*package edu.mum;
+package edu.mum;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,13 +12,12 @@ public class MainController {
 	ProjectDAO projectDao;
 	@RequestMapping("/")
     public String redirectRoot() {
-        return "index";
+        return "index1";
     }
-//
+
 //    @RequestMapping(value = "/books", method = RequestMethod.GET)
 //    public String getAll(Model model) {
 //        model.addAttribute("books", bookDao.getAll());
 //        return "bookList";
 //    }
 }
-*/

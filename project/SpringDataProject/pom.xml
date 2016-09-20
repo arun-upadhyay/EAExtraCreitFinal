@@ -6,7 +6,7 @@
 	<groupId>org.test</groupId>
 	<artifactId>edu.mum.example.domain</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>demoSpringData</name>
 	<description>Demo project for Spring Boot</description>
@@ -35,7 +35,16 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		
-		
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.0.2.RELEASE</version>
+        </dependency>
 	</dependencies>
 </project>
