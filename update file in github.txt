@@ -1,0 +1,6 @@
+update github files:
+
+1. git status
+2. git commit -m "new changes"
+3. git status
+4. git push origin master
